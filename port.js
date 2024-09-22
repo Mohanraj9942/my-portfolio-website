@@ -13,3 +13,13 @@ document.getElementById('scroll-right').addEventListener('click', () => {
         behavior: 'smooth'
     });
 })
+
+
+
+// -------------text animation------
+var typed= new Typed (".auto-type1",{
+    strings : ["Front-End Developer","Creative Thinker"],
+    typeSpeed : 150,
+    backSpeed : 150,
+    loop : true,
+  });

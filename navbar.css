@@ -5,13 +5,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Calistoga&family=Caprasimo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Salsa&display=swap');
 
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
-
 .carpointtxt {
     font-family: "Caprasimo", serif;
     font-family: "Calistoga", serif !important;
@@ -72,7 +72,12 @@
 .green {
     background-color: limegreen !important;
 }
-
+.bgblue{
+    background-color: rgb(173, 199, 255);
+}
+.bg10{
+    background-color: rgb(167, 178, 214);
+}
 .btnhoverb:hover {
     background-color: rgb(0, 0, 0) !important;
     color: rgb(255, 255, 255) !important;
@@ -138,7 +143,7 @@ color:black;
 }
 
 
-.homebg {
+/* .homebg {
     background-image: linear-gradient(rgba(178, 253, 253, 0.1), rgba(178, 253, 253, 0.1)),
         url("./img/main1.jpg");
     background-size: cover;
@@ -146,7 +151,7 @@ color:black;
     background-repeat: no-repeat;
     overflow: hidden;
     background-attachment: fixed;
-}
+} */
 
 .navli a {
     border-radius: 5px;
@@ -159,12 +164,13 @@ color:black;
 
 .navz {
     z-index: 9999;
+    
 
 }
 
-.homecontent {
+/* .homecontent {
     min-height: 87vh;
-}
+} */
 
 /* -------------------------branch----------- */
 
@@ -527,10 +533,20 @@ color:black;
     } */
 }
 
-
+.bgimg10{
+    /* background-attachment: fixed;
+    background-image: linear-gradient(rgba(178, 253, 253, 0.1), rgba(178, 253, 253, 0.1)),
+    url("./img/bg2.avif");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+overflow: hidden; */
+background-attachment: fixed;
+}
 .homebg1{
     min-height: 100vh!important;
     /* background-color: red!important; */
+   
 }
 .car1 {
     width: 300px!important;
@@ -550,6 +566,7 @@ color:black;
     min-width: 300px !important;
         /* background-color: rgb(195, 253, 255); */
 
+
 }
 .project1{
     overflow-x: auto;
@@ -560,4 +577,31 @@ color:black;
     width:0 !important;
 }
 .projectsha{
+}
+.id-padding{
+    padding: 38px!important;
+}
+
+.text-ani{
+    /* background-color: red; */
+    overflow: hidden;
+    border-right: 3px solid orangered;
+    white-space: nowrap;
+    /* animation: typing 4s steps(40,end) infinite; */
+
+    animation-name: typing;
+    animation-timing-function: steps(15,end);
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing
+{
+    from{
+        width:0;
+
+    }
+    to{
+        width:110%;
+    }
 }
