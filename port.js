@@ -1,3 +1,6 @@
+
+// scroll project js
+
 const scrollContainer = document.getElementById('project1');
 
 document.getElementById('scroll-left').addEventListener('click', () => {
@@ -18,8 +21,11 @@ document.getElementById('scroll-right').addEventListener('click', () => {
 
 // -------------text animation------
 var typed= new Typed (".auto-type1",{
-    strings : ["Front-End Developer","Creative Thinker"],
+    strings : ["Front-End Developer","Creative Designer"],
     typeSpeed : 150,
     backSpeed : 150,
     loop : true,
   });
+
+
+  
